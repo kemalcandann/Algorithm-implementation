@@ -1,6 +1,5 @@
-
 #include<stdio.h>
-#include "my_utility.h
+#include "my_utility.h"
 
 #define		SIZE	100
 
@@ -16,7 +15,8 @@ int* get_array_min(const int* array, size_t size)
 	return (int*)min_array;
 }
 
-void selection_sort(int* p, int size)		
+
+void selection_sort(int* p, int size)	
 {
 	for (int i = 0; i < size; ++i)				
 	{
@@ -29,10 +29,8 @@ int main()
 
 	int a[SIZE];
 	randomize();
-
 	set_random_array(a, SIZE);
 	display_array(a, SIZE);
-
 	selection_sort(a, SIZE);
 	display_array(a, SIZE);
 	return 0;
