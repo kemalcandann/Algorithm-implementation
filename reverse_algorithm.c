@@ -6,7 +6,7 @@
 void randomize(void)
 {
 	srand((unsigned int)time(0));
-}
+};Asd
 
 void set_random_array(int* p, int size)
 {
